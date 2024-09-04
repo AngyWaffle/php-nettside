@@ -1,0 +1,76 @@
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #111; /* Slightly darker text for headings */
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product-item {
+    display: block;
+    width: 200px; /* Fixed width for each product */
+    margin: 10px;
+    padding: 15px;
+    background-color: #f4f4f4; /* Light gray background for each item */
+    border: 1px solid #ddd; /* Subtle border for product items */
+    border-radius: 5px; /* Rounded corners for modern feel */
+    text-align: center; /* Center text and content */
+    position: relative; /* Position relative for positioning elements inside */
+    align-items: normal;
+}
+
+.product-item img {
+    width: 100%; /* Responsive image width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 8px; /* Space between image and text */
+}
+
+.product-item h3 {
+    margin: 5px 0;
+    color: #333; /* Dark grey color for product titles */
+    font-size: 16px; /* Slightly larger font for visibility */
+}
+
+.product-item p {
+    font-size: 14px;
+    color: #666; /* Lighter grey for descriptions and price */
+    margin: 5px 0;
+}
+
+button {
+    background-color: #FFA500; /* Bright blue for primary action buttons */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%; /* Full width button */
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #DAA520; /* Darker blue on hover for button */
+}
+
+.notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #48a14d; /* Green background for success notification */
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    display: none;
+}
+
+strong{
+    font-weight: bold;
+    color: #111;
+}
